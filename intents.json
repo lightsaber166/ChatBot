@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon"],
+            "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?", "Hey! What can I do for you?"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+            "responses": ["Goodbye! Have a great day!", "Bye-bye! Don't hesitate to return if you need assistance.", "See you later!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+            "responses": ["You're welcome!", "No problem. Feel free to ask anything else.", "You're welcome! Let me know if there's anything else I can do for you."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Help", "Can you help me?", "I need assistance"],
+            "responses": ["Of course! I'm here to help. What do you need assistance with?", "Sure, I can help. Please tell me what you need assistance with."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like today?", "Tell me the weather forecast", "Weather update"],
+            "responses": ["I can provide you with weather information. Please specify the location you're interested in."]
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["I don't know", "Not sure", "Sorry, I can't help with that"],
+            "responses": ["That's okay. If you have any other questions, feel free to ask."]
+        }
+    ]
+}
